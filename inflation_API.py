@@ -30,22 +30,3 @@ async def predict_inflation(factor: Factors):
     prediction = model.predict(data_in)
      
     return {"prediction": prediction[0]}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##############################################################################
- # = ['food', 'housing', 'house_items', 'clothing', 
-                        #'transport', 'communication', 'health', 'personal', 
-                           #'education', 'int_rate', 'min_wages']
